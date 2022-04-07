@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include issue_tracker_bar *.css
+recursive-include issue_tracker_bar *.csv
+recursive-include issue_tracker_bar *.html
+recursive-include issue_tracker_bar *.ico
+recursive-include issue_tracker_bar *.js
+recursive-include issue_tracker_bar *.json
+recursive-include issue_tracker_bar *.md
+recursive-include issue_tracker_bar *.png
+recursive-include issue_tracker_bar *.py
+recursive-include issue_tracker_bar *.svg
+recursive-include issue_tracker_bar *.txt
+recursive-exclude issue_tracker_bar *.pyc

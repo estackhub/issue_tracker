@@ -1,0 +1,6 @@
+.DS_Store
+*.pyc
+*.egg-info
+*.swp
+tags
+issue_tracker_bar/docs/current
