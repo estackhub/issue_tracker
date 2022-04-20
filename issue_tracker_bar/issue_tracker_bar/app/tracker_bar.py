@@ -13,4 +13,7 @@ def get_all_task(issue=None):
     task_list = frappe.db.sql(""" 
     SELECT name,status,subject FROM `tabTask` WHERE docstatus <> 2 AND issue = '{0}'
     """.format(issue), as_dict=1 )
+
+    #print(f"\n\n\n\n\n {task_list} \n\n\n")
     return task_list
+    
