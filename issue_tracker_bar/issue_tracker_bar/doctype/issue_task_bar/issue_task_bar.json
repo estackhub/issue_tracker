@@ -1,0 +1,82 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-05-01 21:15:29.281510",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "task_status",
+  "task_status_style",
+  "column_break_3"
+ ],
+ "fields": [
+  {
+   "fieldname": "task_status",
+   "fieldtype": "Section Break",
+   "label": "Status Panel"
+  },
+  {
+   "default": "red\ncyan\norange\nLight Blue\npurple\nGreen\nyellow\nBlack\npink\nbrown\nDark Blue",
+   "description": "Task status color",
+   "fieldname": "task_status_style",
+   "fieldtype": "Long Text",
+   "label": "Task Status Style"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "issingle": 1,
+ "links": [],
+ "modified": "2022-05-01 21:25:06.024389",
+ "modified_by": "Administrator",
+ "module": "Issue Tracker Bar",
+ "name": "Issue Task Bar",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "Support Team",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "HR Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "HR User",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
